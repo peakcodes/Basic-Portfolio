@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Tim Hill</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./Assets/CSS/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./Assets/CSS/reset.css" />
+
 </head>
+
 <body>
-    <h1>About Me</h1>
 
-    <img width="560" height="315" src="Headshot.jpg" alt="Tim Hill">
-
-    <p>Hello near and far internet strangers. My name is Tim Hill and I have dipped my pen in a number of different inks over the yeptoars. I have experinece in Agriculural Business, Enterprise Software Sales, Non Porfit Consulting, Web Dev, Blockchain, ad Crypto Currency. All of these skils and expierences come together to help new projects and initiatives get formed. One does not stop learnoing after college but rather life has become a continual learning process.</p>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                    <a class="logo">Tim Hill</a>
+                <ul>
+                    <li><a class="navlinks" href="./index.html">Home</a>&nbsp;|&nbsp;</li>
+                    <li><a class="navlinks" href="./portfolio.html">Profile</a>&nbsp;|&nbsp;</li>
+                    <li><a class="navlinks" href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    <header>
     
-    <p>When I am not glued to computer screen or consulting, I will find myself at the top of Mountain, freeskiing. Or, if it the mountains tend to be to far away, I will find myself at the beach. Happiness can be found at any elevation but I prefer sea level or higher than 7,000 feet in the clouds.</p>
+<!-- Add About me with picture and bio -->
+
+    <section class="content">
+
+        <div class="box-1">
+        <h1 id="me">About Me</h1>
+        <hr>
+        <img id="image" width="50" height="50" src="./Assets/Images/Headshot.jpg">
+        <p class=bio>Hello near and far internet strangers. My name is Tim Hill and I have dipped my pen in a number of different inks over the years. I have experinece in Agricultural Business, Enterprise Software Sales, Non Porfit Consulting, Blockchain and Web Dev. All of these skills have come through many expierences with each buidling on the last to shape the professional I am today. One does not stop learning as life has become a continual learning proces. </p>
+
+        <br>
+
+        <p class="bio">When I have free time, I find myself outdoors or evaluating financial markets. I partiuclar like hiking, skiing, studying cryptocurrecy and reading. Furthermore, expanding my skillset and continuing my education.</p>
+        </div>
+
+        <div class="box-2">
+        <h3 class="connect">Connect with me</h3>
+        <hr>
+        <a href="https://github.com/peakcodes">
+        <img class="links" width="50" height="40" src="./Assets/Images/github-mark.png"></a>
+        <a href="https://www.linkedin.com/in/tim-hill-66141222">
+        <img class="links" width="50" height="40" src="./Assets/Images/square-linkedin-512.png"></a>   
+        <a href="https://stackoverflow.com/users/9284788/tim-h">
+        <img class="links" width="50" height="40" src="./Assets/Images/stackoverflow.png"></a>
+        
+        </div>  
+
+    </section>
+
+<!-- Add background and fill to footer -->
+    <footer>
+    <p id="footertext">Copyright 2018 Tim Hill</p>
+    </footer>
 
 </body>
 </html>
